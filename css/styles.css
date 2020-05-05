@@ -1,0 +1,48 @@
+.jumbotron{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #9F2C75;
+    color: floralwhite;
+}
+
+
+#scetimg{
+    height: 90px;
+}
+
+.navbar-dark{
+    background-color: #560238;
+}
+
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0px;
+    background-color: #FAEEFA;
+}
+
+.footer{
+    background-color: #D281B5;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+#carouselExampleControls{
+    margin-left: 70px;
+    margin-right: 70px;
+    padding : 30px 0px 30px 0px;
+    border-bottom: 5px ridge;
+    border-color: #560238;
+}
+
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content{
+    margin: 0px auto;
+    padding : 30px 50px 30px 50px;
+    border-bottom: 5px ridge;
+    border-color: #560238;
+    min-height:350px;
+}
