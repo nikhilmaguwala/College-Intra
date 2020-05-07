@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">      
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/jpeg" href="scet2.jpg">
+    <link rel="icon" type="image/jpeg" href="scet2.png">
     <title>SCET CO Intra</title>
     </head>
     <body>
@@ -19,15 +19,31 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand mr-auto" href="#">SCET CO DEPARTMENT</a>
+                <a class="navbar-brand" href="#">
+                    <!-- s -->
+                    <svg>
+                        <symbol id="s-text">
+                            <text text-anchor="middle" x="50%" y="75%">SCET CO DEPARTMENT</text>
+                        </symbol>
+
+                        <g class="g-ants">
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                        </g>
+                    </svg>
+                    <!-- e -->
+                </a>
                 <div class="collapse navbar-collapse" id="Navbar">
                     <ul class="navbar-nav ml-auto topnav">
                         <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="./curriculum.html"><span class="fa fa-info fa-lg"></span> Curriculum</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Result</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user fa-lg"></span> Staff</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./staff.html"><span class="fa fa-user fa-lg"></span> Staff</a></li>
                         <li class="nav-item"><a class="nav-link" href="./student.html"><span class="fa fa-users fa-lg"></span> Student</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-picture-o fa-lg"></span> Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./gallery.html"><span class="fa fa-picture-o fa-lg"></span> Gallery</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-graduation-cap fa-lg"></span> Placement</a></li>
                     </ul>
                 </div>
@@ -38,7 +54,7 @@
             <div class="container">
                 <div class="row row-header align-items-center">
                     <div class="col-12 col-sm-6 col-md-2 order-sm-first">
-                        <img src="scet.JPEG" alt="scet logo" id="scetimg">
+                        <img  class="rotate" src="scet2.png" alt="scet logo" id="scetimg">
                     </div>
                     <div class="col col-sm oreder-sm-last col-md">
                         <h2>SARVAJANIK COLLEGE OF ENGINEERING AND TECHNOLOGY</h2>
@@ -72,29 +88,42 @@
             </a>
         </div>
 
-        <div class="row row-content align-items-center " style="padding-top: 20px;padding-bottom: 20px;">
-            <div class="col col-sm-10 order-sm-first col-md-8">
-                <h2>MISSION STATEMENT-SCET</h2>
-                <p>"To form Intellectually Competent,Professional Skilled, Spiritually Evolved Morally Upright, Socially Responsive, Culturally Tolerant Citizens Through Holistic "Sarvajanik" Technical Education For Creation of Progressive Civilization..."</p>
-            </div>
-        </div>
-
         <div class="row row-content align-items-center" style="padding-top: 20px;padding-bottom: 20px;">
-            <div class="col col-sm-10 order-sm-first col-md-8">
-                <h2>DEPARTMENT STATEMENT-SCET</h2>
-                <p>"Enhance the problem solving aptitude of students and instil in them the best of the technical knowledge so that they are the best in industry..."</p>
-            </div>
-        </div>
-
-        <div class="row row-content align-items-center" style="padding-top: 20px;padding-bottom: 20px;">
-            <div class="col col-sm-10 order-sm-first col-md-8">
+            <div class="col col-sm-10 order-sm-first col-md-11">
                 <h2>ABOUT THE DEPARTMENT</h2>
                 <p>The Department of Computer Engieering offers programs in B.E.(Computer) since 1995.Intially the intake was 60 . With the inception of the same course in the second shift in 2013, the total intake is now 120. The Department of Computer Engineering also offers PG course with the specialization in 'Computer Engineering' . The course commenced in the year 2012 with intake of 18 has been increased to 24 in the year 2018. Both these programs are approved by Gujarat Technological University, Chandkheda. Ghandinagar and AICTE.</p>
+                <p>The department imparts high quality technical education to its students with the help of its state-of-the-art computing facilities and highly qualified teaching staff as well as supporting staff. The department offers bachelor’s degree in computer engineering that covers the latest subjects in the variety of areas like computer hardware, software, networking, microprocessors, operating systems, database management, artificial intelligence, information security, web technologies etc. The department continues the journey towards ".The goal of creating technical excellence which imparts the best knowledge and skills to students with the objective of producing high calibre engineering graduates". A sound theoretical and practical work prepares the students in wider area of computer engineering.</p>
+                <p>There are six well-equipped laboratories in the department. The ultimate laboratory facility along with unlimited internet access helps the upcoming computer engineer to come out with bright future. The department consists of highly capable teaching and non-teaching staff who are always ready to inculcate the best knowledge to the students. The department always strives for providing excellent and modernizes laboratory facilities to the students.</p>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 col-md-6 order-sm-first">
+                <h2>MISSION STATEMENT-SCET</h2>
+                <p>"To form Intellectually Competent,Professional Skilled, Spiritually Evolved Morally Upright, Socially Responsive, Culturally Tolerant Citizens Through Holistic "Sarvajanik" Technical Education For Creation of Progressive Civilization..."</p>                </div>
+            <div class="col col-sm oreder-sm-last col-md">
+                <h2>DEPARTMENT STATEMENT-SCET</h2>
+            <p>"Enhance the problem solving aptitude of students and instil in them the best of the technical knowledge so that they are the best in industry..."</p>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 col-md-6 order-sm-first">
+                <h2><span class="fa fa-bullseye fa-lg"></span> MISSION</h2>
+                <ul>
+                    <li>To develop the student with strong foundation of scientific methods and engineering through excellence in teaching-learning and research.</li>
+                    <li>To produce the student competent enough for professional career and higher studies.</li>
+                    <li>To cultivate the student with value based education for making them credible citizens.</li>
+                </ul>
+            </div>
+            <div class="col col-sm oreder-sm-last col-md">
+                <h2><span class="fa fa-eye fa-lg"></span> VISION</h2>
+                <p>To evolve as a premiere center in the field of computer engineering for developing competent engineers with best of technical knowledge and ethics.</p>
             </div>
         </div>
 
         </div>
-        <footer class="footer">
+        <footer class="footer"  style="margin-bottom: 0px;">
             <div class="container">
                 <div class="row">             
                     <div class="col-auto">
@@ -119,7 +148,7 @@
                         <div class="toast-header">
                             <svg class="rounded mr-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
                             focusable="false" role="img">
-                            <rect fill="#007aff" width="100%" height="100%" /></svg>
+                            <rect fill="#007aff" width="100%" height="50%" /></svg>
                             <strong class="mr-auto">Notice!</strong>
                             <small>11 mins ago</small>
                             <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">

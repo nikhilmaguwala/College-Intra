@@ -15,7 +15,7 @@
 }
 
 body{
-    padding: 50px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
     z-index: 0px;
     background-color: #FAEEFA;
 }
@@ -42,7 +42,100 @@ body{
 .row-content{
     margin: 0px auto;
     padding : 30px 50px 30px 50px;
-    border-bottom: 5px ridge;
+    border-bottom: 3px ridge;
     border-color: #560238;
     min-height:350px;
 }
+
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+svg {
+    display: block;
+    font: 1.7em;
+    width: 216px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 1px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 4s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke:whitesmoke;
+    animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+    stroke:whitesmoke;
+    animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+    stroke: #9F2C75;
+    animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+    stroke: #9F2C75;
+    animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+    stroke:whitesmoke;
+    animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+    100% {stroke-dashoffset: -35%;}
+}
+
+.rotate {
+    animation: rotation 3s infinite linear;
+    z-index: 2;
+
+  } 
+
+@keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">      
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/jpg" href="scet2.jpg">
+    <link rel="icon" type="image/jpg" href="scet2.png">
     <title>SCET CO Intra</title>
     </head>
     <body>
@@ -19,15 +19,31 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand mr-auto" href="./index.html">SCET CO DEPARTMENT</a>
+                <a class="navbar-brand" href="./index.html">
+                    <!-- s -->
+                    <svg>
+                        <symbol id="s-text">
+                            <text text-anchor="middle" x="50%" y="75%">SCET CO DEPARTMENT</text>
+                        </symbol>
+
+                        <g class="g-ants">
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                        </g>
+                    </svg>
+                    <!-- e -->
+                </a>
                 <div class="collapse navbar-collapse" id="Navbar">
                     <ul class="navbar-nav ml-auto topnav">
                         <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
                         <li class="nav-item active"><a class="nav-link" href="./curriculum.html"><span class="fa fa-info fa-lg"></span> Curriculum</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Result</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-user fa-lg"></span> Staff</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./staff.html"><span class="fa fa-user fa-lg"></span> Staff</a></li>
                         <li class="nav-item"><a class="nav-link" href="./student.html"><span class="fa fa-users fa-lg"></span> Student</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-picture-o fa-lg"></span> Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./gallery.html"><span class="fa fa-picture-o fa-lg"></span> Gallery</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-graduation-cap fa-lg"></span> Placement</a></li>
                     </ul>
                 </div>
@@ -38,7 +54,7 @@
             <div class="container">
                 <div class="row row-header align-items-center">
                     <div class="col-12 col-sm-6 col-md-2 order-sm-first">
-                        <img src="scet.JPEG" alt="scet logo" id="scetimg">
+                        <img src="scet2.png" alt="scet logo" id="scetimg" class="rotate">
                     </div>
                     <div class="col col-sm oreder-sm-last col-md">
                         <h2>SARVAJANIK COLLEGE OF ENGINEERING AND TECHNOLOGY</h2>
@@ -199,7 +215,7 @@
             </div>
           </div>-->
 
-        <footer class="footer">
+        <footer class="footer" style="margin-bottom: 0px;">
             <div class="container">
                 <div class="row">             
                     <div class="col-auto">
