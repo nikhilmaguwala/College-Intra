@@ -81,7 +81,7 @@ body{
 
 svg {
     display: block;
-    font: 1.7em;
+    font: 1.8em;
     width: 216px;
     height: 40px;
     margin: 0 auto;
@@ -90,8 +90,8 @@ svg {
 .text-copy {
     fill: none;
     stroke: white;
-    stroke-dasharray: 6% 29%;
-    stroke-width: 1px;
+    stroke-dasharray: 5% 25%;
+    stroke-width: 0.8px;
     stroke-dashoffset: 0%;
     animation: stroke-offset 4s infinite linear;
 }
@@ -107,22 +107,22 @@ svg {
 }
 
 .text-copy:nth-child(3){
-    stroke: #9F2C75;
+    stroke: whitesmoke;
     animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-    stroke: #9F2C75;
+    stroke: rgb(192, 96, 157);
     animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-    stroke:whitesmoke;
+    stroke:rgb(177, 62, 62);
     animation-delay: -5s;
 }
 
 @keyframes stroke-offset{
-    100% {stroke-dashoffset: -35%;}
+    100% {stroke-dashoffset: -30%;}
 }
 
 .rotate {
